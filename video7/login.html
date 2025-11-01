@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registeration page</title>
 </head>
+
 <body>
     <h1>Login page</h1>
     <form action="">
@@ -13,23 +15,63 @@
             <input type="text" name="fullname" id="fullname" placeholder="enter full name">
         </div>
         <div>
-            
+            <label for="uname">Username :
+
+            </label>
+            <input type="text" name="Username" id="uname" placeholder="enter username">
         </div>
         <div>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="enter email">
-    </div>
-    <div>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" placeholder="enter password">
-    </div>
-    <div>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male">
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="enter email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="enter password">
+        </div>
+        <div>
+            <label for="confirm_password">Confirm Password :</label>
+            <input type="password" name="confirm_password" id="confirm_password" placeholder="confirm_password">
 
-    </div>
+        </div>
+        <div>
+            <label for="phone">Phone number :</label>
+            <input type="tel" name="phone_number" id="phone" placeholder="enter phone number">
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+
+        </div>
+        <div>
+            <label for="country">Country :</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="America">America</option>
+                <option value="Saudi-Arabia">Saudi-Arabia</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="terms_condtions" id="terms_condtions">
+            <label for="terms_condtions">I agree to the terms</label>
+
+        </div>
+        <div>
+
+            <input type="submit" name="submit" id="submit_btn">
+        </div>
+
     </form>
 </body>
+
 </html>
