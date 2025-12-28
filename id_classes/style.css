@@ -1,0 +1,17 @@
+.red{
+    background-color: red;
+
+}
+
+.blue{
+    font-size: 10px;
+}
+/*To target the class use .class_name{}*/
+
+
+
+/*To target the id use #class_name{}*/
+
+#td{
+    background-color: yellow;
+}
