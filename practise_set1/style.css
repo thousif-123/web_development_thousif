@@ -1,0 +1,19 @@
+#nav-bar{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+    height:100%;
+}
+table {
+  border-collapse: collapse; /* This is key! */
+  width: 100%; /* Optional: make the table span the width of its container */
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px; /* Optional: adds space between content and border */
+  text-align: left; /* Optional: aligns text to the left */
+}
