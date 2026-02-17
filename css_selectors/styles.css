@@ -1,0 +1,59 @@
+/* element selectors */
+p{
+    background-color: aqua;
+}
+
+/* id selector */
+#ptag{
+    background-color: red;
+}
+#starting-h1{
+    color:red;
+    text-align: center;
+}
+#foot-div{
+    background-color: aqua;
+    text-align: center;
+}
+/* class selector */
+.div-tag{
+    background-color: green;
+}
+
+/* universal selector */
+*{
+    margin:2;
+}
+
+/* Grouping selector */
+h1,h2,h3{
+    color:brown;
+}
+
+/* Descendant selector */
+span p{
+    color: blue;
+    background-color: orange;
+}
+div p{
+    color:red;
+}
+#dtag p{
+    color:green;
+}
+
+/* child selectors */
+div>p{
+    color :red;
+}
+#dtag>p{
+    color:blue;
+}
+
+/* Pseudo selector */
+a:visited{
+    color:red;
+}
+a:hover{
+    color:green;
+}
